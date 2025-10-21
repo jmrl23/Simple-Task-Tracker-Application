@@ -9,6 +9,12 @@
 yarn install
 ```
 
+1. Deploy database migration
+
+```bash
+npx prisma migrate delploy
+```
+
 1. Build
 
 ```bash
