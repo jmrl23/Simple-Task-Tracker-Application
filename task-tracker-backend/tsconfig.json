@@ -1,0 +1,7 @@
+{
+  "extends": "@tsconfig/recommended",
+  "include": ["src/**/*", "generated/prisma/**/*"],
+  "compilerOptions": {
+    "outDir": "build"
+  }
+}
