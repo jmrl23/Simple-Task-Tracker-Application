@@ -14,6 +14,9 @@ export function tasksRoute(app: FastifyInstance) {
           where: {
             user_id: request.userId,
           },
+          orderBy: {
+            created_at: "asc",
+          },
         });
 
         return {
